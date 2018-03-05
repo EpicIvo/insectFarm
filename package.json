@@ -1,0 +1,29 @@
+{
+  "name": "open-insect-farm-platform",
+  "description": "Open insect farm platform",
+  "version": "1.0.0",
+  "author": "Ivo van der Knaap",
+  "dependencies": {
+    "firebase": "^4.10.1",
+    "gatsby": "^1.9.223",
+    "gatsby-link": "^1.6.38",
+    "gatsby-plugin-react-helmet": "^2.0.6",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.11.1"
+  }
+}
